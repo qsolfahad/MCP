@@ -209,3 +209,60 @@ servicenow-mcp/
 ├── requirements.txt    # Python dependencies
 └── README.md           # This file
 ```
+
+
+{
+  "mcpServers": {
+    "servicenow": {
+      "command": "C:\\servicenow-mcp\\.venv\\Scripts\\python.exe",
+      "args": [
+        "C:\\servicenow-mcp\\mcpnow1.py"
+      ]
+    }
+  },
+  "coworkUserFilesPath": "C:\\Users\\User\\Claude",
+  "preferences": {
+    "coworkBrowserToolsEnabled": true,
+    "coworkPreferredBrowser": "built_in",
+    "launchPreviewPersistedWorkspaces": [],
+    "launchPreviewSessionScopedSessions": [],
+    "coworkScheduledTasksEnabled": false,
+    "coworkHipaaRestricted": false,
+    "orgWorkAcrossAppsDisabled": true,
+    "ccdScheduledTasksEnabled": false,
+    "sidebarMode": "chat",
+    "bypassPermissionsGateByAccount": {
+      "d5de79b2-096f-4ecc-802e-21fc6b60ef4a": false
+    },
+    "coworkWebSearchEnabled": true,
+    "coworkModelAutoFallbackByAccount": {
+      "d5de79b2-096f-4ecc-802e-21fc6b60ef4a": true
+    },
+    "remoteToolsDeviceName": "desktop-eju6lt9",
+    "epitaxyPrefs": {
+      "desktop-frame.paneStore.v1": {
+        "state": {
+          "extraPanesByMode": {},
+          "colWeightsByMode": {},
+          "rowSplit": 0.5,
+          "draftNonce": 0
+        },
+        "version": 4
+      },
+      "starred-local-code-sessions": [],
+      "starred-cowork-spaces": [],
+      "starred-session-groups": [],
+      "dframe-group-scopes": {},
+      "dframe-local-slice": {
+        "pinnedOrder": [],
+        "homeProjectsPinnedOrder": []
+      },
+      "ccd-sessions-filter": {
+        "state": {
+          "selectedProjects": []
+        },
+        "version": 0
+      }
+    }
+  }
+}
